@@ -1,7 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
 
   //Card Options
-  const cardArray = [{
+  const cardArray = [
+    {
       name: 'bacon',
       img: 'images/bacon.png'
     },
