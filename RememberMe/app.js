@@ -27,10 +27,6 @@ document.addEventListener('DOMContentLoaded', () => {
       img: 'images/french-fries.png'
     },
     {
-      name: 'banana',
-      img: 'images/banana.png'
-    },
-    {
       name: 'pineapple',
       img: 'images/pineapple.png'
     },
@@ -65,10 +61,6 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       name: 'french-fries',
       img: 'images/french-fries.png'
-    },
-    {
-      name: 'banana',
-      img: 'images/banana.png'
     },
     {
       name: 'pineapple',
