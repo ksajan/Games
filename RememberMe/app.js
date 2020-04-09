@@ -84,12 +84,16 @@ document.addEventListener('DOMContentLoaded', () => {
       ]
 
       const grid = document.querySelector('.grid')
+
+
       // Creating board
       function createBoard() {
         for (let i = 0; i < cards.length; i++) {
           var card = document.createElement('img')
           card.setAttribute('src', 'images/back.png)
-            card.setAttribute('data-id', i); card.addEventListener('click', flipcard); document.getElementById('game-board').appendChild(card)
+          card.setAttribute('data-id', i)
+          //card.addEventListener('click', flipcard); 
+          grid.appendChild(card)
           }
         }
 
