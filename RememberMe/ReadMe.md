@@ -15,3 +15,9 @@ We will be Learning javascript modules that are:
 * sort()
 * For loops
 * createElement()
+
+
+
+### Download Section
+
+For images I am using icons from [flaticon](https://www.flaticon.com/authors/freepik). Feel free to use other icons or images for this game.
