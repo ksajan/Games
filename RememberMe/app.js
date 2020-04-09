@@ -113,7 +113,7 @@ document.addEventListener('DOMContentLoaded', () => {
     cardsChosen = []
     cardsChosenId = []
     resultDisplay.textContent = cardsWon.length
-    if (cardsWon.length === cardArray.length / 2) {
+    if (cardsWon.length === cardArray.length/2) {
       resultDisplay.textContent = "Congratulations! You have Found all ot them. Awesome!"
     }
   }
@@ -121,7 +121,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function flipCard() {
     var cardId = this.getAttribute('data-id')
     cardsChosen.push(cardArray[cardId].name)
-    cardsChosen.pop(cardId)
+    cardsChosen.push(cardId)
     this.setAttribute('src', cardArray[cardId].img)
     if (cardsChosen.length === 2) {
       setTimeout(checkForMatch, 500)
@@ -129,7 +129,4 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   createBoard()
-
-
-
 })
